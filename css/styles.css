@@ -1,10 +1,30 @@
-    body{
-        background-color: #151719;
-    };
+body {
+    background-color: #151719;
+}
 
+.container {
+    display: flex;
+    max-width: 1110px;
+    padding: 30px;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
 
-    .container{
-        max-width: 1110px;
-        padding: 30px;
-    };
+header a {
+    color: #5D5DFF;
+}
 
+.header .btn1 {
+    margin-left: 51px;
+}
+
+.btn1{
+    color: #FFFF;
+    background-color: #5D5DFF;
+    padding: 8px 20px;
+    box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
+    border-radius: 2px;
+}
