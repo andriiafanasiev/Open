@@ -37,6 +37,13 @@ header a {
     padding: 8px 20px;
     box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
     border-radius: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main .btn1{
+    padding: 12px 32px;
 }
 
 .btn1:hover {
@@ -62,6 +69,15 @@ main p {
     color: #9BA9B4;
 }
 
+main p:first-of-type {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
 
 
 
