@@ -12,6 +12,22 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    position: relative;
+}
+
+.shapeclosetoup{
+    position: absolute;
+    max-width: 730px;
+    max-height: 607px;
+    top: 0;
+    right: 0;
+}
+.shapeclosetovideo{
+    position: absolute;
+    max-width: 563px;
+    max-height: 551px;
+    left: 83px;
+    top: 490px;
 }
 
 .header {
@@ -58,11 +74,59 @@ main .btn1{
     color: #737272;
 }
 
+.btn2 {
+    margin-left: 12px;
+    background: #33363A;
+    box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+    border-radius: 2px;
+    color: #C5D2DC;
+    padding: 12px 32px;
+}
+
+.btn2:hover {
+    background-color: #b9b9c0;
+    transition: all 0.2s;
+    color: #4c4b4b;
+}
+
+.btn2:active {
+    background-color: #484849;
+    transition: all 0.2s;
+    color: #737272;
+}
+
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.video {
+    position: relative;
+    margin-bottom: 131px;
+}
+
+
+.video video {
+    max-width: 1024px;
+    max-height: 576px;
+}
+.video img {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s, transform 0.5s;
+}
+.video img:hover{
+    opacity: 0.2;
+}
+
+.video-loader{
+    margin-top: 64px;
 }
 
 main p {
