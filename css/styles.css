@@ -15,14 +15,15 @@ body {
     position: relative;
 }
 
-.shapeclosetoup{
+.shapeclosetoup {
     position: absolute;
     max-width: 730px;
     max-height: 607px;
     top: 0;
     right: 0;
 }
-.shapeclosetovideo{
+
+.shapeclosetovideo {
     position: absolute;
     max-width: 563px;
     max-height: 551px;
@@ -58,7 +59,7 @@ header a {
     font-size: 16px;
 }
 
-main .btn1{
+main .btn1 {
     padding: 12px 32px;
 }
 
@@ -112,6 +113,7 @@ main {
     max-width: 1024px;
     max-height: 576px;
 }
+
 .video img {
     position: absolute;
     top: 57%;
@@ -121,11 +123,12 @@ main {
     opacity: 1;
     transition: opacity 0.5s, transform 0.5s;
 }
-.video img:hover{
+
+.video img:hover {
     opacity: 0.2;
 }
 
-.video-loader{
+.video-loader {
     margin-top: 64px;
 }
 
@@ -133,7 +136,7 @@ main p {
     color: #9BA9B4;
 }
 
-main p:first-of-type {
+.h1-Description {
     margin-top: 16px;
     margin-bottom: 32px;
     font-style: normal;
@@ -143,7 +146,12 @@ main p:first-of-type {
 
 }
 
-
+.workflow-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #D9E3EA;
+}
 
 h1 {
     font-style: normal;
@@ -152,4 +160,57 @@ h1 {
     line-height: 62px;
     margin-top: 108px;
     color: #D9E3EA;
+}
+
+.workflow-section>p:first-of-type {
+    margin-top: 44px;
+    margin-bottom: 52px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workflow-row {
+    display: flex;
+    width: 100%;
+    gap: 64px;
+}
+
+.row-bottom {
+    margin-top: 64px;
+}
+
+.workflow-card h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    color: #D9E3EA;
+}
+
+.workflow-card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    color: #9BA9B4;
+}
+.separator-line{
+    display: block;
+    max-width: 1104px;
+    height: 1px;
+    margin: 80px auto;
+    background-color: #33363A;
 }
