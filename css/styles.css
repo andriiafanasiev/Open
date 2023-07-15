@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500;700;800&display=swap');
 body {
     background-color: #151719;
     font-family: 'Inter', sans-serif;
@@ -13,6 +13,10 @@ body {
     flex-direction: column;
     margin: 0 auto;
     position: relative;
+}
+
+.video{
+    width: 100%;
 }
 
 .shapeclosetoup {
@@ -178,10 +182,12 @@ h1 {
     display: flex;
     width: 100%;
     gap: 64px;
+    
 }
 
 .row-bottom {
     margin-top: 64px;
+    
 }
 
 .workflow-card h3 {
@@ -207,14 +213,107 @@ h1 {
 
     color: #9BA9B4;
 }
-.separator-line{
+
+.separator-line {
     display: block;
     max-width: 1104px;
     height: 1px;
     margin: 80px auto;
     background-color: #33363A;
 }
-.One-product{
+
+.One-product {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.One-product h3 {
+    color: #D9E3EA;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.One-product p {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: -0.01563rem;
+}
+
+.Goals_txt {
+    margin: 0 auto;
+    color: #36A269;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    background: #C6F6D5;
+    box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+    padding: 4px 12px;
+}
+
+.moreSpeedDiv {
     display: flex;
     
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.moreSpeedp {
+    color: #5D5DFF;
+    font-family: 'Architects Daughter';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: 0.01563rem;
+}
+.moreSpeedTextdiv{
+    
+    margin-right: 4rem;
+    text-align: start;  
+}
+.moreSpeedDiv h4{
+    color: #D9E3EA;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.25px;
+}
+
+
+
+
+@media (max-width: 885px) {
+    .video{
+        display: none;
+    }
+
+    .moreSpeedDiv{
+        flex-wrap: wrap;
+    }
+    .moreSpeedDiv picture {
+        margin: 0 auto;
+    }
+    .moreSpeedTextdiv{
+        text-align: center;
+        margin: 50px auto;
+    }
+    .workflow-section{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 1024px){
+    .video{
+        width: 50%;
+    }
 }
