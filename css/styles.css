@@ -226,7 +226,8 @@ h1 {
 
 
 
-.One-product h3 {
+.One-product h3,
+.dontTake h3 {
     color: #D9E3EA;
     text-align: center;
     font-size: 2.5rem;
@@ -236,7 +237,8 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.One-product p {
+.One-product p,
+.dontTake p {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -247,12 +249,16 @@ h1 {
 .Goals_txt {
     margin: 0 auto;
     color: #36A269;
+    color: #36A269;
+    font-family: Inter;
     font-size: 14px;
+    font-style: normal;
     font-weight: 600;
-    border-radius: 15px;
+    line-height: 22px;
+    border-radius: 20px;
     background: #C6F6D5;
+    padding: 4px 12px 4px 12px;
     box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
-    padding: 4px 12px;
 }
 
 .moreSpeedDiv {
@@ -263,26 +269,26 @@ h1 {
 }
 
 
-.moreSpeedDiv picture img{
+.moreSpeedDiv picture img {
     max-width: 540px;
     max-height: 405px;
     flex-shrink: 0;
-};
+}
+
+;
 
 
 
 
-.moreSpeedpar{
+.moreSpeedpar {
     color: #5D5DFF;
     font-family: 'Architects Daughter';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.875rem;
-    letter-spacing: 0.01563rem;
 }
 
-.moreSpeedRight{
+.moreSpeedRight {
     margin-left: 64px;
 }
 
@@ -312,7 +318,9 @@ h1 {
     line-height: 27px;
     letter-spacing: -0.25px;
     margin-left: 20px;
-};
+}
+
+;
 
 .moreSpeedDiv ul {
     margin-top: 16px;
@@ -322,12 +330,54 @@ h1 {
     margin-top: 8px;
 }
 
+.reviews {
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.review {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    background-color: #25282C;
+
+}
+
+.review p {
+    color: #9BA9B4;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+}
+
+.avatarreview {
+    max-width: 48px;
+    max-height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 720px) {
     .moreSpeedDiv picture img {
         max-width: 400px;
         max-height: 302px;
         flex-shrink: 0;
-    };
+    }
+
+    ;
 }
 
 
@@ -345,11 +395,14 @@ h1 {
         text-align: center;
         margin: 50px auto;
     }
+
     .moreSpeedDiv picture img {
         max-width: 480px;
         max-height: 400px;
         flex-shrink: 0;
-    };
+    }
+
+    ;
 }
 
 @media (max-width: 1024px) {
