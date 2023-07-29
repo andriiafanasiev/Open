@@ -344,7 +344,7 @@ h1 {
 
 }
 
-.review p {
+.reviewp {
     color: #9BA9B4;
     font-family: Inter;
     font-size: 18px;
@@ -361,12 +361,39 @@ h1 {
     margin-bottom: 16px;
 }
 
+.avatar {
+    position: relative;
+    display: flex;
+}
 
+.nameandplatform {
+    display: flex;
 
+}
 
+.blueforavtr {
+    position: absolute;
+    left: 37px;
 
+}
 
+.reviewname,
+.reviewpltfrm {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+}
 
+.reviewname {
+    color: #D9E3EA;
+}
+
+.reviewpltfrm {
+    color: #5D5DFF;
+}
 
 
 
