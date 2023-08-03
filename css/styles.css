@@ -219,6 +219,8 @@ h1 {
     background-color: #33363A;
 }
 
+
+
 .One-product {
     display: flex;
     flex-direction: column;
@@ -395,7 +397,90 @@ h1 {
     color: #5D5DFF;
 }
 
+.slash {
+    color: #33363A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
 
+.rectangle {
+    height: 1px;
+    background: #33363A;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.stayloop {
+    background-image: url(/img/Shapes/footerShape.svg);
+    background-color: #5D5DFF;
+    display: flex;
+    padding: 65px 48px;
+    margin-top: 80px;
+    text-align: start;
+}
+
+.stayloop div input[type="email"] {
+    border-radius: 2px;
+    border: 1px solid #8D8DFF;
+    background: #4B4ACF;
+    color: #ABABFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.25px;
+    padding: 12px 12px 12px 16px ;
+
+}
+
+.stayloop div input[type="submit"]{
+    border-radius: 2px;
+background: #F4F4FF;
+box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+color: #5D5DFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: -0.25px;
+padding: 12px 32px ;
+}
+
+
+
+.staylooptxt {
+    margin-right: 64px;
+}
+
+.staylooptxt h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.25px;
+
+}
+
+.staylooptxt p {
+    color: #E2E1FF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+}
 
 @media (max-width: 720px) {
     .moreSpeedDiv picture img {
@@ -427,6 +512,19 @@ h1 {
         max-width: 480px;
         max-height: 400px;
         flex-shrink: 0;
+    }
+
+    .nameandplatform p {
+        font-size: 15px;
+    }
+
+    .One-product p,
+    .dontTake p {
+        font-size: 15px;
+    }
+
+    .reviews {
+        flex-wrap: wrap
     }
 
     ;
