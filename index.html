@@ -14,24 +14,24 @@
 	<img class="shapeclosetoup" src="/img/Shapes/Shapetoup.svg" alt="">
 	<div class="container">
 		<header class="header">
-			<picture><img src="/img/Logo.svg" alt="Logo"></picture>
+			<a href="#"><img src="/img/Logo.svg" alt="Logo"></a>
 			<div>
-				<a href="">Sign in</a>
-				<a class="btn1" href="">Sign up</a>
+				<a href="/sign_in.html">Sign in</a>
+				<a class="btn1" href="/sign_Up.html">Sign up</a>
 			</div>
 		</header>
 		<main>
 			<h1>Landing template for startups</h1>
 			<p class="h1-Description">Our landing page template works on all devices, so you only have to<br>
 				set it up once, and get beautiful results forever.</p>
-			<div><a class="btn1" href="">Start free trial</a><a class="btn2" href="">Learn more</a></div>
+			<div><a class="btn1" href="/sign_Up.html">Start free trial</a><a class="btn2" href="#about">Learn more</a></div>
 			<div class="video">
 				<video class="video-loader" poster="/img/Video preloader.png" onclick="playVideo()">
 					<source src="/img/Video/clouds.mp4" type="video/mp4">
 				</video>
 				<img id="playButton" src="/img/Play.svg" alt="playButton" onclick="playVideo()">
 			</div>
-			<section class="workflow-section">
+			<section class="workflow-section" id="about">
 				<h2>The majority our customers do not<br> understand their workflows.</h2>
 				<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt<br> mollit anim id
 					est laborum.</p>
@@ -196,8 +196,8 @@
 					<h3>Stay in the loop</h3>
 					<p>Join our newsletter to get top news before anyone else.</p>
 				</div>
-				<form action="/submit" method="post">
-					<input type="email" name="email" id="" placeholder="Your best email…">
+				<form method="post">
+					<input type="email" minlength="3" required name="email" id="" placeholder="Your best email…">
 					<button type="submit">Subscribe</button>
 				</form>
 			</section>

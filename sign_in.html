@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/Logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <img class="shapeclosetoup" src="/img/Shapes/Shapetoup.svg" alt="">
+    <div class="container">
+        <header>
+            <a href="/index.html"><img src="/img/Logo.svg" alt="logo"></a>
+        </header>
+        <main>
+            <h1>Welcome back. We exist to make entrepreneurism easier.</h1>
+            <div class="formcontainer">
+                <form class="signUpform" method="post" action="">
+                    <label for="nameinput">Full Name <span>*</span></label>
+                    <input type="text" required id="nameinput" placeholder="First and last name" minlength="5"
+                        maxlength="30" name="name" value="">
+                    <label for="Passwordinput">Password <span>*</span></label>
+                    <input type="password" required id="Passwordinput" placeholder="Password (at least 10 characters)"
+                        minlength="10" name="password">
+                    <div>
+                        <input type="checkbox" id="checkboxsignin">
+                        <label id="checkboxlabel" for="checkboxsignin">Keep me signed in</label>
+                        <p>Forgot Password?</p>
+                    </div>
+                    <button type="submit">Sign up</button>
+                </form>
+                <p class="signInlastp">Don’t you have an account? <a href="/sign_Up.html">Sign up</a></p>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
