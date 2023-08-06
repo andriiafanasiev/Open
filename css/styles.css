@@ -329,7 +329,7 @@ h1 {
 }
 
 .moreSpeedDiv ul li {
-    list-style-image: url(/img/Cards-icons/PathCheck.svg);
+    list-style-image: url(img/Cards-icons/PathCheck.svg);
     color: #9BA9B4;
     font-size: 18px;
     font-style: normal;
@@ -434,7 +434,7 @@ h1 {
 }
 
 .stayloop {
-    background-image: url(/img/Shapes/footerShape.svg);
+    background-image: url(img/Shapes/footerShape.svg);
     background-color: #5D5DFF;
     display: flex;
     padding: 65px 48px;
