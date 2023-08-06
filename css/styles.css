@@ -343,7 +343,7 @@ h1 {
     padding: 24px;
     flex-direction: column;
     background-color: #25282C;
-
+    text-align: start;
 }
 
 .reviewp {
@@ -425,7 +425,7 @@ h1 {
     text-align: start;
 }
 
-.stayloop div input[type="email"] {
+.stayloop form input[type="email"] {
     border-radius: 2px;
     border: 1px solid #8D8DFF;
     background: #4B4ACF;
@@ -441,7 +441,7 @@ h1 {
 
 }
 
-.stayloop div input[type="submit"]{
+.stayloop form button[type="submit"]{
     border-radius: 2px;
 background: #F4F4FF;
 box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
@@ -481,6 +481,85 @@ padding: 12px 32px ;
     line-height: 27px;
     letter-spacing: -0.25px;
 }
+
+.FAQ{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerlogo{
+    text-align: start;
+}
+.footerlogo img{
+    margin-bottom: 14px;
+}
+.footerlogo p {
+    color: #9BA9B4;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: -0.25px;
+margin-right: 169px;
+}
+
+.footertext{
+    text-align: start;
+    display: flex;
+    gap: 50px;
+}
+
+
+
+dt {
+    color: #D9E3EA;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+}
+
+dl{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+dd{
+    color: #9BA9B4;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+
+.copiraits p {
+    color: #9BA9B4;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+
+.copi{
+    color: #D9E3EA;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+}
+
+.footerfotr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
 
 @media (max-width: 720px) {
     .moreSpeedDiv picture img {
