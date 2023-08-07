@@ -41,6 +41,12 @@ header a:hover img {
     right: 0;
 }
 
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .shapeclosetovideo {
     position: absolute;
     max-width: 563px;
@@ -329,7 +335,7 @@ h1 {
 }
 
 .moreSpeedDiv ul li {
-    list-style-image: url(img/Cards-icons/PathCheck.svg);
+    list-style-image: url(../img/Cards-icons/PathCheck.svg);
     color: #9BA9B4;
     font-size: 18px;
     font-style: normal;
